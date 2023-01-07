@@ -402,7 +402,6 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 .member-status, .status-message, .status-message-product-name, .status-message-quoted{
-    color: rgb(177,0,0) !important;
     text-shadow: 1px  1px 1px #000000 !important; 
 }
 .dnd {
@@ -591,4 +590,8 @@ lol-social-roster-member .party-join-button {
 }
 rcp-fe-lol-navigation {
     
+}
+
+.identity-and-parties {
+    backgroud: rgba(0, 0, 0, 0.6) !important;
 }
