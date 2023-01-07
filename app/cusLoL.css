@@ -18,7 +18,7 @@
     opacity:0;
 }
 .collections-application{
-    background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/b2caafb14ab75fe57c45179ce48a44367dc56a3f/app/src/main/res/drawable/allina.jpg) !important;
+    background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/a906ee15ae8a1bf495ffe8e9a52847f716eafb7a/app/src/main/res/drawable/quynh.jpg) !important;
     background-size: cover !important;
 }
 
@@ -59,7 +59,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     -webkit-user-drag: none;
     -webkit-user-select: none;
     background-color:transparent !important;
-    background:url('https://webdevtestbutch.000webhostapp.com/assets/Social.jpg')!important;
+    background:url('https://rawcdn.githack.com/hoanganhnvnb/DonationApp/a906ee15ae8a1bf495ffe8e9a52847f716eafb7a/app/src/main/res/drawable/yelanright.jpg')!important;
    *box-shadow: inset 0px 0px 1278px  rgba(220, 20, 60, 0.2) ;        
     *border-radius:20px 20px 0px 0px;
 }
@@ -149,7 +149,8 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     width: 1055px;
     height: 718px;
     overflow: hidden;
-    background: url(https://webdevtestbutch.000webhostapp.com/assets/lootbackdrop.jpg) !important;
+    background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/b2caafb14ab75fe57c45179ce48a44367dc56a3f/app/src/main/res/drawable/allina.jpg) !important;
+    background-size: cover !important;
     
 }
 
