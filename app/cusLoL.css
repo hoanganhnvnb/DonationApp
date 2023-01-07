@@ -11,7 +11,7 @@
 	background-color:transparent !important;
 	*box-shadow: inset 0px 0px 150px  rgba(220, 20, 60, 0.2) ;
 	*border-radius:20px 20px 0px 0px;
-	background-size: contain !important;
+	background-size: cover !important;
 	background-repeat: no-repeat !important;
 
 }
