@@ -7,7 +7,7 @@
 
 .parties-view
 {
-    background: url(https://webdevtestbutch.000webhostapp.com/assets/lujk6nk4ziy61.jpg) !important;
+    background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/b2caafb14ab75fe57c45179ce48a44367dc56a3f/app/src/main/res/drawable/EiKKm.jpg) !important;
 	background-color:transparent !important;
 	*box-shadow: inset 0px 0px 150px  rgba(220, 20, 60, 0.2) ;
 	*border-radius:20px 20px 0px 0px;	
@@ -17,7 +17,7 @@
     opacity:0;
 }
 .collections-application{
-    background: url(https://webdevtestbutch.000webhostapp.com/assets/noxancollection.jpg) !important;
+    background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/b2caafb14ab75fe57c45179ce48a44367dc56a3f/app/src/main/res/drawable/allina.jpg) !important;
 }
 
 div[data-screen-name='rcp-fe-lol-navigation-screen'] {
