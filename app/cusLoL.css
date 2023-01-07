@@ -62,6 +62,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     background:url('https://rawcdn.githack.com/hoanganhnvnb/DonationApp/a906ee15ae8a1bf495ffe8e9a52847f716eafb7a/app/src/main/res/drawable/yelanright.jpg')!important;
    *box-shadow: inset 0px 0px 1278px  rgba(220, 20, 60, 0.2) ;        
     *border-radius:20px 20px 0px 0px;
+    background-size: cover !important;
 }
 .social-scroll::-webkit-scrollbar {
     width: 0px!important;    
@@ -505,12 +506,13 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 
 .loot-backdrop .lol-uikit-video-content{
-    background: url(https://webdevtestbutch.000webhostapp.com/assets/lootbackdrop.jpg) !important;    
+    background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/b2caafb14ab75fe57c45179ce48a44367dc56a3f/app/src/main/res/drawable/allina.jpg) !important;    
     display: block;   
     box-sizing: border-box;
     width: 180px; 
     height: 236px; 
     padding-left: 180px; 
+	background-size: cover !important;
 }
 
 
