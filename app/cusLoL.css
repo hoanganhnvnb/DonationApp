@@ -337,50 +337,7 @@ lol-social-roster-member .member-icon {
     flex-shrink: 0;
 }
 
-.icon-ring{
-    background-image:none!important;    
-}
-lol-social-roster-member .party-join-button {
-    filter: brightness(0.7) invert(1);    
-}
 
-:host .parties-status-card.open {
-    opacity:0.7;
-}
-
-
-.hover-card-root-container {
-    opacity:0.95;
-}
-
-.parties-invite-info-panel{
-    filter: grayscale(100%) brightness(1.2);
-}
-
-
-.champion-image-container {
-    opacity:0.9!important;
-}
-
-.champion-name{
-    color:white!important;
-    font-size:17px!important;
-    text-shadow:2px 2px black!important;
-        
-}
-
-.patching-progress-bar{    
-    padding-left:405px!important;
-}
-
-.ticker-button {
-    position:absolute;
-    margin-left:200px!important;
-    background-repeat:no-repeat;
-}
-rcp-fe-lol-navigation {
-    
-}
 
 .identity-and-parties {
     background: rgba(0, 0, 0, 0.6) !important;
