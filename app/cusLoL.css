@@ -514,10 +514,10 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 /*     background: none; */
 	display: block;   
     box-sizing: border-box;
-    width: 0px; 
-    height: 0px; 
+     width: 180px; 
+    height: 236px; 
     padding-left: 180px; 
-	background-size: contain !important;
+	background-size: cover !important;
 	background-repeat: no-repeat !important;
 }
 
