@@ -155,7 +155,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     height: 718px;
     overflow: hidden;
     background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/8639a054a0b05a61d778a8752975fc8693cdfc8c/app/src/main/res/drawable/allina-1.jpg) !important;
-    background-size: contain !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
 }
 
