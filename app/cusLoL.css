@@ -24,35 +24,9 @@
 	background-repeat: no-repeat !important;
 }
 
-div[data-screen-name='rcp-fe-lol-navigation-screen'] {
-    height: 79px;
-    width: 1278px;
-    border-top: 0px solid #785a28!important;
-    box-sizing: border-box;
-	*box-shadow: inset 0px 0px 1278px  rgba(220, 20, 60, 0.2) ;
-	*border-radius:20px 20px 0px 0px;
-}
-
-#rcp-fe-viewport-root {
-    display: flex;
-    width: 1280px;
-    height: 720px;
-    position: relative;
-    border-right: 2px solid #310a0a!important;
-    border-left: 2px solid #310a0a!important;
-    border-bottom: 2px solid #310a0a!important;
-    border-top: 2px solid #310a0a!important;
-    box-sizing: border-box;
-    overflow: hidden;
-    background: #000;
-	background-color:transparent !important;
-
-}
-
 .lol-social-sidebar {
     width: 100%;
     height: 100%;
-
     position: relative;
     display: flex;
     flex-direction: column;
@@ -97,7 +71,6 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     overflow: hidden;
     background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/28a8f2a417eff661156cefe2769035dbe326acee/app/src/main/res/drawable/allina-last.jpg) !important;
     background-size: cover !important;
-    background-repeat: no-repeat !important;
 }
 
 .parties-header-button-container .back-button-container.back-button-shown {
