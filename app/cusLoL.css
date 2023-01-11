@@ -72,22 +72,6 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     width: 0px!important;    
 }
 
-.section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #f1f1f1!important;
-    border: none;
-    margin: 0;
-    text-decoration: none;
-    outline: none;
-    transition: text-shadow 0.3s ease-in-out, background 1.5s;
-    width: 100%;
-    height: 100%;
-    min-height: 20px;
-    cursor: pointer;
-}
 
 .section.active .section-glow {
     height: 1px;
@@ -99,15 +83,6 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     background: linear-gradient(to left, transparent, #9e6dff, transparent)!important;
 }
 
-.section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
-    color: #846bff;
-    text-shadow: 0px 0px 21px #8500ff !important;
-    /* opacity: 1; */
-}
-
- .section.active {
-    background-image: linear-gradient(0deg, rgba(157, 84, 255, 0.3) 0%, rgba(34, 0, 66, 0.19) 55%)!important;
-}
 
 .section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
     color: #ffffff!important;
@@ -203,17 +178,8 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 
 /* HOME */
-.rcp-fe-lol-home-sub-nav{
-    filter: brightness(0) invert(1)!important;
-}
 
 /* Profile */
-.style-profile-sub-nav {
-    filter: brightness(0) invert(1)!important;
-}
-.style-profile-skin-picker-button {
-    filter: grayscale(100%) brightness(1.2);
-}
 
 
 
@@ -247,4 +213,81 @@ lol-social-roster-member .member-icon {
 
 .identity-and-parties {
     background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.loot-backdrop .lol-uikit-video-content{
+/*     background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/b2caafb14ab75fe57c45179ce48a44367dc56a3f/app/src/main/res/drawable/allina.jpg) !important; */
+    background: none;
+	display: block;   
+    box-sizing: border-box;
+     width: 180px; 
+    height: 236px; 
+    padding-left: 180px; 
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+
+.parties-game-navs-list .parties-game-navs-item {    
+    filter: brightness(0) invert(1)!important;
+}
+
+.game-type-card.selected .parties-game-type-card-category-btn {
+    filter: brightness(0) invert(1)!important;
+}
+
+.lol-social-sidebar .alpha-version-panel {
+    filter: grayscale(100%) ;
+}
+
+.friend-requests {
+    height: 44px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(1,10,19,0.7)!important;
+    box-shadow: 0 5px 45px rgba(0,0,0,0.5);
+}
+
+.friend-requests-header {
+    color: #ffc13d !important; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #facfffc2!important;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    transition: text-shadow 0.3s ease-in-out, background 1.5s;
+    width: 100%;
+    height: 100%;
+    min-height: 20px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif!important;
+}
+
+::content .lol-uikit-video-content {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    filter: brightness(0) invert(0)!important;
+}
+
+.lol-uikit-full-page-backdrop {
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(255, 255, 255, 0.3) 120%)!important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
