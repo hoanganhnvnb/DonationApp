@@ -73,11 +73,6 @@
     background-size: cover !important;
 }
 
-.parties-header-button-container .back-button-container.back-button-shown {
-    display: block;
-    filter: saturate(0);
-}
-
 
 #rcp-fe-viewport-root > .rcp-fe-viewport-full-screen {
     background-color: transparent;
@@ -110,9 +105,7 @@
     letter-spacing: 0.025em;
     -webkit-font-smoothing: subpixel-antialiased;
 }
-.member-status, .status-message, .status-message-product-name, .status-message-quoted{
-    text-shadow: 1px  1px 1px #000000 !important; 
-}
+
 .dnd {
     color:rgb(177,0,0) !important;
 }
@@ -132,20 +125,6 @@
     letter-spacing: 0.075em;
         
 }
-
-
-.player-party-controls.main-player-controls .parties-player-labels-wrapper .parties-player-name-container .parties-player-name {
-    color: #fabe0a;
-    max-width: 170px;
-    filter: brightness(0) invert(1)!important;
-}
-
-.player-party-controls .parties-player-labels-wrapper .parties-player-name-container .parties-player-leader-icon {
-    position: absolute!important;    
-    padding-bottom: 60px!important;    
-}
-
-
 /* LOBBY */
 
 
