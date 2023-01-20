@@ -11,9 +11,6 @@
 	background-repeat: no-repeat !important;
 
 }
-.parties-view .parties-background {
-    opacity:0;
-}
 .collections-application{
     background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/28a8f2a417eff661156cefe2769035dbe326acee/app/src/main/res/drawable/quynh-last.jpg) !important;
     background-size: cover !important;
@@ -37,9 +34,6 @@
     *border-radius:20px 20px 0px 0px;
     background-size: cover !important;
 	background-repeat: no-repeat !important;
-}
-.social-scroll::-webkit-scrollbar {
-    width: 0px!important;    
 }
 
 /* LOBBY */
