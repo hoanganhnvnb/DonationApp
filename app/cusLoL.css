@@ -8,13 +8,11 @@
 	*box-shadow: inset 0px 0px 150px  rgba(220, 20, 60, 0.2) ;
 	*border-radius:20px 20px 0px 0px;
 	background-size: cover !important;
-	background-repeat: no-repeat !important;
 
 }
 .collections-application{
     background: url(https://rawcdn.githack.com/hoanganhnvnb/DonationApp/28a8f2a417eff661156cefe2769035dbe326acee/app/src/main/res/drawable/quynh-last.jpg) !important;
     background-size: cover !important;
-	background-repeat: no-repeat !important;
 }
 
 .lol-social-sidebar {
@@ -26,8 +24,6 @@
     color: #00000008;
     font-size: 12px;
     cursor: default;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
     background-color:transparent !important;
     background:url('https://rawcdn.githack.com/hoanganhnvnb/DonationApp/28a8f2a417eff661156cefe2769035dbe326acee/app/src/main/res/drawable/hutao-last.jpg')!important;
    *box-shadow: inset 0px 0px 1278px  rgba(220, 20, 60, 0.2) ;        
