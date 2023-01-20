@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Orbitron&display=swap');
 
-:root {
- 	--red:
-    --red-gradient:
-}
 
 .parties-view
 {
@@ -46,77 +42,6 @@
     width: 0px!important;    
 }
 
-
-.section.active .section-glow {
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 20px;
-    margin: 0;
-    background: linear-gradient(to left, transparent, #9e6dff, transparent)!important;
-}
-
-
-.section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
-    color: #ffffff!important;
-    text-shadow: 0px 1px 15px white!important;
-    font-family: 'Orbitron', sans-serif!important;
-}
-
-
-
-#rcp-fe-viewport-root > .rcp-fe-viewport-full-screen {
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    -webkit-user-select: none;
-    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.2);
-}
-
-
-.currency-be-icon-container {
-  
-    filter: brightness(0) invert(1)!important;
-}
-
-.currency-rp {
-    filter: brightness(0) invert(1)!important;
-}
-
-.member-name-wrapper .member-name {
-    color: #ffffff!important;
-    font-size: 14px;
-    font-weight: bold!important;
-    line-height: 20px;
-    text-shadow: 1px  1px 1px black !important;   
-    letter-spacing: 0.025em;
-    -webkit-font-smoothing: subpixel-antialiased;
-}
-
-.dnd {
-    color:rgb(177,0,0) !important;
-}
-
-
-.group-header {
-    background: rgba(1,10,19,0.7)!important;          
-    transition: 0.5s;
-    height: 24px;
-    cursor: pointer;
-    display: flex;
-    margin-bottom: 4px;
-    color: rgba(255,255,255,1)!important;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.075em;
-        
-}
 /* LOBBY */
 
 
